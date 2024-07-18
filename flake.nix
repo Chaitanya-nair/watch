@@ -14,7 +14,7 @@
       perSystem = { self', pkgs, ... }: {
         haskellProjects.default = {
 
-          basePackages = pkgs.haskell.packages.ghc8107;
+          basePackages = pkgs.haskell.packages.ghc92;
           packages = {
             haskeline.source = inputs.haskeline;
           };
